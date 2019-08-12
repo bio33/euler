@@ -10,7 +10,7 @@ import math
 
 temp = 0
 i = -1
-with open("data.txt",'r') as f:
+with open("99.txt",'r') as f:
   data = f.readlines()
   for index,line in enumerate(data,1):
     num,power = list(map(int,line.split(",")))
