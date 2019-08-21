@@ -6,13 +6,12 @@ def isPrime(num):
   return True
 
 primes = [2]
-
+# upper limit for primes would be √50000000 
 for i in range(3,7071,2):
   if isPrime(i):
     primes.append(i)
 
-print(primes)
-print(len(primes))
+
 limit = 50000000
 nums = []
 for pow2 in primes:
