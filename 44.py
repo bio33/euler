@@ -12,4 +12,4 @@ for i in range(2, 10 ** 6):
         q = j * (3 * j - 1) / 2
         if ispenta(p + q) and ispenta(p - q):
             print(p - q)
-            break
+            exit(1)
