@@ -1,5 +1,5 @@
 from functools import reduce
-with open("data.txt","r") as f:
+with open("8.txt","r") as f:
   temp = ""
   x = f.readline().strip()
   while x:
